@@ -93,6 +93,7 @@
 		<property name="contentType" value="text/html; charset=utf-8" />
 		<property name="cache" value="true" />
 		<property name="suffix" value=".ftl" />
+		<!--多视图的情况下优先考虑-->
 		<property name="order" value="0" />
 	</bean>
 	<bean id="viewResolver"
